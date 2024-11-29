@@ -55,9 +55,11 @@ public class DroicamClientGUI extends JFrame {
 
         // ComboBox chọn chất lượng video
         qualityComboBox = new JComboBox<>();
-        qualityComboBox.addItem("360x360");
-        qualityComboBox.addItem("720x720");
         qualityComboBox.addItem("1080x1080");
+        qualityComboBox.addItem("720x720");
+        qualityComboBox.addItem("360x360");
+        qualityComboBox.addItem("144x144");
+        qualityComboBox.setSelectedIndex(1);
         qualityComboBox.setToolTipText("Chọn chất lượng video");
 
         // Tạo các nút chức năng
